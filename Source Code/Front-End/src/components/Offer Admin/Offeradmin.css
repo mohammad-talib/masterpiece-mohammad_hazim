@@ -1,0 +1,13 @@
+.admin {
+  color: #52732f;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.line-admin {
+  margin: 0 auto;
+  height: 2px;
+  width: 15%;
+  background-color: #52732f;
+  margin-bottom: 20px;
+}

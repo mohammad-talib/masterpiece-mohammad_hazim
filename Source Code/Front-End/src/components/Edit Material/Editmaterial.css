@@ -1,0 +1,14 @@
+.vertical {
+  height: 51vh;
+}
+
+.form-center {
+  width: 60%;
+  margin: 100px auto;
+}
+
+.form {
+  padding: 20px;
+  width: 100%;
+  background-color: #fff;
+}

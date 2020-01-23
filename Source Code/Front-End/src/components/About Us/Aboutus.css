@@ -1,0 +1,50 @@
+.about-us {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: flex-start;
+  width: 100%;
+  background-image: url(./bottom-right.png), url(bottom-left.png);
+  background-position: right bottom, left bottom;
+  background-repeat: no-repeat, no-repeat;
+  padding: 55px 256px;
+  background-color: #f1f1f1;
+  margin-top: -7px;
+  font-family: "Montserrat", sans-serif;
+}
+.about-us h4 {
+  font-size: 36px;
+}
+
+.about-us p {
+  width: 867px;
+  font-size: 22px;
+}
+
+@media only screen and (max-width: 900px) {
+  .about-us {
+    overflow: hidden;
+    display: block;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 10px;
+  }
+  .about-us p {
+    width: 100%;
+    font-size: 20px;
+    color: #000;
+  }
+}
+
+@media only screen and (min-width: 901px) and (max-width: 1140px) {
+  .about-us {
+    padding: 55px 55px;
+  }
+
+  .about-us p {
+    width: 100%;
+    font-size: 20px;
+    color: #000;
+  }
+}

@@ -1,0 +1,45 @@
+.containerinfo {
+  background: url("./OGA3HG0.jpg");
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  width: 100%;
+}
+
+.childofcontainerinfo {
+  padding: 70px !important;
+  width: 100%;
+  background-color: rgba(80, 54, 54, 0.5);
+  color: #fff;
+}
+
+.info-recycle {
+  float: left;
+  margin: 50px;
+  justify-content: center;
+  font-family: Lato;
+  font-size: 30px;
+  font-style: normal;
+  width: 866px;
+}
+
+.info-container {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  font-family: Lato;
+  font-style: normal;
+  font-size: 20px;
+}
+
+@media only screen and (max-width: 900px) {
+  .info-recycle {
+    margin: 5px;
+    font-size: 20px;
+    width: 100%;
+  }
+
+  .info-recycle h1 {
+    font-size: 30px;
+  }
+}

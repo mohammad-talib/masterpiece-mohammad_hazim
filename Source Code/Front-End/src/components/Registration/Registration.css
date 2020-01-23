@@ -1,0 +1,59 @@
+.form-reg {
+  width: 32%;
+  background-color: #fff;
+  position: absolute;
+  left: 15%;
+  top: 42%;
+  padding: 30px;
+  border: 5px solid #357d1b;
+}
+
+.pargraph-reg {
+  width: 35%;
+  padding: 30px;
+  position: absolute;
+  right: 15%;
+  top: 60%;
+}
+
+.margin-img-req{
+  margin-bottom: 500px;
+}
+
+@media only screen and (max-width: 900px) {
+  .form-reg  {
+    width: 100%;
+    background-color: #fff;
+    position: static;
+  
+    padding: 30px;
+    border: 5px solid #357d1b;
+  }
+  .pargraph-reg {
+    width: 100%;
+    padding: 30px;
+    position: static;
+  }
+  .margin-img-req{
+    margin-bottom: 0;
+  }
+}
+
+@media only screen and (min-width: 901px) and (max-width: 1800px) {
+  .form-reg {
+    width: 50%;
+    position: static;
+    padding: 30px;
+    border: 5px solid #357d1b;
+    margin: 0 auto
+  }
+  .pargraph-reg {
+    width: 50%;
+    padding: 30px;
+    position: static;
+    margin: 0 auto
+  }
+  .margin-img-req{
+    margin-bottom: 0;
+  }
+}

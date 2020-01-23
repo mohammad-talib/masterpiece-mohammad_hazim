@@ -1,0 +1,100 @@
+.logo-font {
+  font-size: 24px !important;
+  color: green !important;
+}
+
+.button-point {
+  background-color: #ddd;
+  border: none;
+  color: black;
+  padding: 2px 10px !important;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  cursor: pointer;
+  border-radius: 20px !important;
+}
+
+.outline-img {
+  outline: none !important;
+}
+
+#green-header {
+  background-color: #a5c447 !important;
+  color: white !important;
+  -webkit-box-shadow: 0px 3px 10px -5px rgba(46, 65, 45, 1);
+  -moz-box-shadow: 0px 3px 10px -5px rgba(46, 65, 45, 1);
+  box-shadow: 0px 3px 10px -5px rgba(46, 65, 45, 1);
+}
+#green-logo {
+  color: white !important;
+  font-family: "Montserrat", sans-serif;
+  font-size: 29px !important;
+}
+.recycle {
+  font-size: 29px !important;
+  margin-right: 11px !important;
+}
+#green-nav a {
+  color: white;
+  font-size: 22px;
+}
+
+#pill-black {
+  background-color: #52732f !important;
+}
+
+.fa-coins {
+  font-size: 26px !important;
+  margin-right: 11px !important;
+  color: #52732f !important;
+}
+
+.green-money {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+}
+
+.green-drop {
+  background-color: white !important;
+  margin-top: 9px !important;
+  border-radius: 0px 0px 3px 3px !important;
+  border-top: none !important;
+  border-left: 3px #a5c447 solid !important;
+  border-bottom: 3px #a5c447 solid !important;
+  border-right: 3px #a5c447 solid !important;
+  padding: 1px !important;
+}
+
+.green-greeting {
+  font-size: 21px;
+  color: black !important;
+}
+
+.green-margin-right {
+  margin-right: 11px;
+  color: #52732f;
+}
+
+.nav-link {
+  text-decoration: none;
+  color: black;
+}
+
+.nav-link:hover {
+  color: #52732f !important;
+}
+
+.nav-link:focus {
+  color: #52732f !important;
+}
+
+.nav-link:active {
+  color: #52732f !important;
+}
+
+.nav-link:visited {
+  background-color: #fff;
+}

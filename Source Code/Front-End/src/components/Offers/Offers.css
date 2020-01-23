@@ -1,0 +1,28 @@
+.show-message {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: darkgreen;
+  width: 50%;
+  z-index: 999;
+}
+.cont {
+  margin: 0 auto !important;
+  width: 90% !important;
+  justify-content: center;
+}
+
+.offer-head {
+  text-align: center;
+  font-size: 50px;
+  color: #52732f;
+  padding-top: 30px;
+}
+
+.line {
+  margin: 0 auto;
+  height: 2px;
+  width: 10%;
+  background-color: #52732f;
+}

@@ -1,0 +1,20 @@
+#green-nav {
+  background-color: #a5c447 !important;
+}
+
+#green-logo {
+  color: white !important;
+  font-family: "Montserrat", sans-serif;
+  font-size: 29px !important;
+}
+
+.logo-font {
+  font-size: 24px !important;
+  color: green !important;
+}
+
+.recycle {
+  font-size: 29px !important;
+  margin-right: 11px !important;
+  color: white;
+}

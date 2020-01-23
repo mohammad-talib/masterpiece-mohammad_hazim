@@ -1,0 +1,114 @@
+.features {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+  background-color: #fff;
+  margin-bottom: 11px;
+  padding: 41px 0 11px 0;
+  margin-top: -7px;
+}
+.features div {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: flex-start;
+  width: 100%;
+  margin-bottom: 11px;
+  padding: 41px 0 11px 0;
+}
+.features div .whats {
+  background-color: #fff;
+  border-radius: 0px 15px 0px 15px;
+  border: 1px #52732f solid;
+  width: 31%;
+  padding: 14px;
+}
+.features div .whats:hover {
+  background-color: #a5c447;
+  color: white;
+}
+.features div .whats h1 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+.features div .whats p {
+  font-size: 20px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+}
+.features div .how-to-use {
+  background-color: #fff;
+  border-radius: 0px 15px 0px 15px;
+  border: 1px #52732f solid;
+  width: 31%;
+  padding: 14px;
+}
+.features div .how-to-use:hover {
+  background-color: #a5c447;
+  color: white;
+}
+.features div .how-to-use h1 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+.features div .how-to-use p {
+  font-size: 20px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+}
+.features div .how-it-works {
+  background-color: #fff;
+  border-radius: 0px 11px 0px 11px;
+  border: 1px #52732f solid;
+  width: 31%;
+  padding: 14px;
+}
+.features div .how-it-works:hover {
+  background-color: #a5c447;
+  color: white;
+}
+.features div .how-it-works h1 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+.features div .how-it-works p {
+  font-size: 20px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+}
+
+.features div h1 i {
+  font-size: 27px;
+}
+.title-of-instruction {
+  width: 98%;
+  margin: 0 auto;
+  font-family: "Montserrat", sans-serif;
+  font-weight: bolder;
+  color: #52732f;
+}
+
+@media only screen and (max-width: 900px) {
+  .features div .whats {
+    width: 100%;
+  }
+  .features div .how-to-use {
+    width: 100%;
+  }
+  .features div .how-it-works {
+    width: 100%;
+  }
+  .title-of-instruction {
+    font-size: 33px;
+  }
+}
