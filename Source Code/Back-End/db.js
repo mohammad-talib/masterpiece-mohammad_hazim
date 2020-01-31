@@ -33,25 +33,25 @@ let userSchema = new mongoose.Schema({
   photo: String,
   username: {
     type: String,
-    required: [true, "You Can't Make a User Name Empty"]
+    required: [true, "User Name Required"]
   },
   email: {
     type: String,
-    required: [true, "You Can't Make The Email Empty"],
+    required: [true, "Email Required"],
     unique: true
   },
   password: {
     type: String,
-    required: [true, "You Can't Make A Password Empty"]
+    required: [true, "Password Required"]
   },
   phonenumber: {
     type: String,
-    required: [true, "You Can't Make The Phone Number Empty"]
+    required: [true, "Phone Number Required"]
   },
   point: Number,
   location: {
     type: String,
-    required: [true, "You Can't Make a Location Empty"]
+    required: [true, "Location Required"]
   },
   addmaterial: [materialSchema],
   offers: [offerSchema],

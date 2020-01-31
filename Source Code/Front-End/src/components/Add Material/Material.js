@@ -52,7 +52,7 @@ class Material extends Component {
       <div className="container vertical">
         <div className="form-center shadow p-3 mb-5 bg-white rounded">
           <Form className="form" onSubmit={this.addMaterial}>
-            <h2>send Request Material</h2>
+            <h2>Send Request Material</h2>
 
             <div>
               <p>{this.state.faild}</p>

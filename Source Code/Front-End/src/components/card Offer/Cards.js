@@ -55,8 +55,8 @@ class Cards extends Component {
     return (
       <div>
         <figure className="card border-success shadow bg-white rounded card-product">
-          <div className="img-wrap">
-            <img src={this.props.carditem.image} alt="cards" height="250px" />
+          <div>
+            <img src={this.props.carditem.image} alt="cards" width="100%" height="300px" />
           </div>
           <figcaption className="info-wrap">
             <h4 className="title">{this.props.carditem.title}</h4>

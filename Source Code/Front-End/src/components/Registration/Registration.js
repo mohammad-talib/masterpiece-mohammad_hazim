@@ -64,12 +64,12 @@ class Registration extends Component {
         <div className="form-reg">
           <Form onSubmit={this.registration}>
             <h2>Sign Up</h2>
-            <div>
+            <div className="row">
               {user.map(item => {
-                return <Alert variant="danger">{item}</Alert>;
+                return <Alert className="col-6" variant="danger">{item}</Alert>;
               })}
-              <h5>{regUser}</h5>
             </div>
+            <h5>{regUser}</h5>
             <br></br>
             <Form.Group controlId="formBasicUser">
               <Form.Label>User Name</Form.Label>
